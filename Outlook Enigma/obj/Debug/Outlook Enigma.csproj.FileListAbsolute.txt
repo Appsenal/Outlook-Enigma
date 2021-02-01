@@ -1,0 +1,13 @@
+D:\Pierre\Project\Repository\Outlook Enigma\Outlook Enigma\bin\Debug\Outlook Enigma.dll
+D:\Pierre\Project\Repository\Outlook Enigma\Outlook Enigma\bin\Debug\Outlook Enigma.pdb
+D:\Pierre\Project\Repository\Outlook Enigma\Outlook Enigma\bin\Debug\Outlook Enigma.dll.manifest
+D:\Pierre\Project\Repository\Outlook Enigma\Outlook Enigma\bin\Debug\Outlook Enigma.vsto
+D:\Pierre\Project\Repository\Outlook Enigma\Outlook Enigma\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\Pierre\Project\Repository\Outlook Enigma\Outlook Enigma\bin\Debug\Microsoft.Office.Tools.Outlook.v4.0.Utilities.dll
+D:\Pierre\Project\Repository\Outlook Enigma\Outlook Enigma\obj\Debug\Outlook Enigma.csprojAssemblyReference.cache
+D:\Pierre\Project\Repository\Outlook Enigma\Outlook Enigma\obj\Debug\Outlook_Enigma.Properties.Resources.resources
+D:\Pierre\Project\Repository\Outlook Enigma\Outlook Enigma\obj\Debug\Outlook Enigma.csproj.GenerateResource.cache
+D:\Pierre\Project\Repository\Outlook Enigma\Outlook Enigma\obj\Debug\Outlook Enigma.csproj.CoreCompileInputs.cache
+D:\Pierre\Project\Repository\Outlook Enigma\Outlook Enigma\obj\Debug\Outlook Enigma.csproj.CopyComplete
+D:\Pierre\Project\Repository\Outlook Enigma\Outlook Enigma\obj\Debug\Outlook Enigma.dll
+D:\Pierre\Project\Repository\Outlook Enigma\Outlook Enigma\obj\Debug\Outlook Enigma.pdb
