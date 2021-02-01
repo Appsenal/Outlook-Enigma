@@ -7,12 +7,12 @@ using System.Security;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Outlook Enigma")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("An Outlook add in to encrypt and decrypt your Outlook email message.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Appsenal (Pierre Amparado)")]
 [assembly: AssemblyProduct("Outlook Enigma")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("Appsenal")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

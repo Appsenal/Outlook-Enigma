@@ -5,6 +5,8 @@ using System.Text;
 using Office = Microsoft.Office.Core;
 using Outlook = Microsoft.Office.Interop.Outlook;
 
+//Author: Pierre Amparado (Appsenal) 02/01/2021
+
 namespace Outlook_Enigma
 {
     partial class EnigmaForm
@@ -41,16 +43,19 @@ namespace Outlook_Enigma
 
         private void DecipherBtn_Click(object sender, EventArgs e)
         {
+            //Decrypt the value of the message from message textbox and assign it to the result textbox value
             ResultTxt.Text = Outlook_Anonymizer.Cipher.Decrypt(MessageTxt.Text, KeyTxt.Text);
         }
 
         private void CipherBtn_Click(object sender, EventArgs e)
         {
+            //Encrypt the value of the message from message textbox and assign it to the result textbox value
             ResultTxt.Text = Outlook_Anonymizer.Cipher.Encrypt(MessageTxt.Text, KeyTxt.Text);
         }
 
         private void LoadMsgBtn_Click(object sender, EventArgs e)
         {
+            //Get the message from the current email item.
             Outlook.Application _Outlook = new Outlook.Application();
             Object selection = _Outlook.ActiveExplorer().Selection[1];
             Outlook.MailItem currentMail = (selection as Outlook.MailItem);
@@ -59,6 +64,7 @@ namespace Outlook_Enigma
 
         private void ComposeBtn_Click(object sender, EventArgs e)
         {
+            //Create new email and pass the value of the result textbox to the new email.
             Outlook.Application _Outlook = new Outlook.Application();
             Outlook.MailItem mailItem = (Outlook.MailItem)_Outlook.CreateItem(Outlook.OlItemType.olMailItem);
             mailItem.Subject = "";
